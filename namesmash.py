@@ -172,7 +172,7 @@ if __name__ == '__main__':
                 print(fname[0] + '_' + lname[:1] + "1")  # j_do1
                 
             # take only the first 3 characters from the lname
-            if len(lname) >= 2:
+            if len(lname) >= 3:
                 print(fname + lname[:2])           # johndoe
                 print(lname[:2] + fname)           # doejohn
                 print(lname[:2] + '_' + fname)     # doe_john
@@ -185,7 +185,7 @@ if __name__ == '__main__':
                 print(fname[0] + '_' + lname[:2])  # j_doe
                 
             # take only the first 3 characters from the lname and adds 1 at the end
-            if len(lname) >= 2:
+            if len(lname) >= 3:
                 print(fname + lname[:2] + "1")           # johndoe1
                 print(lname[:2] + fname + "1")           # doejohn1
                 print(lname[:2] + '_' + fname + "1")     # doe_john1
@@ -198,7 +198,7 @@ if __name__ == '__main__':
                 print(fname[0] + '_' + lname[:2] + "1")  # j_doe1
 
             # take only the first 4 characters from the lname
-            if len(lname) >= 2:
+            if len(lname) >= 4:
                 print(fname + lname[:3])           # johndoee
                 print(lname[:3] + fname)           # doeejohn
                 print(lname[:3] + '_' + fname)     # doee_john
@@ -212,7 +212,7 @@ if __name__ == '__main__':
                 
                 
             # take only the first 4 characters from the lname and adds 1 at the end
-            if len(lname) >= 2:
+            if len(lname) >= 4:
                 print(fname + lname[:3] + "1")           # johndoee1
                 print(lname[:3] + fname + "1")           # doeejohn1
                 print(lname[:3] + '_' + fname + "1")     # doee_john1
